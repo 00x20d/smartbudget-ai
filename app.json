@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "SmartBudget AI",
+    "slug": "smartbudget-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.user0x20dorg.smartbudgetai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.user0x20dorg.smartbudgetai"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6be6fb1e-6598-40bc-9e1b-91ef1e7ec769"
+      }
+    },
+    "owner": "0x20d-org",
+    "updates": {
+      "url": "https://u.expo.dev/6be6fb1e-6598-40bc-9e1b-91ef1e7ec769"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
